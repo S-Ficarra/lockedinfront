@@ -1,0 +1,13 @@
+.cardcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #000;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.cardh1 {
+    text-align: center;
+}

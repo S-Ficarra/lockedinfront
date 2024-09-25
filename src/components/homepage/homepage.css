@@ -1,0 +1,25 @@
+.bookingContainer {
+    border: solid 3px #265630;
+    box-shadow: 5px 5px 5px #265630;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    border-radius: 10px;
+    width: 75%;
+    margin: 25% auto;
+}
+
+.bookingContainer img {
+    width: 25%;
+}
+
+.bookingContainer a {
+    text-decoration: none;
+    color: #265630;
+}
+
+
+

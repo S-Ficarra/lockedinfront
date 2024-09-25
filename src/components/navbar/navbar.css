@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #255530;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar img {
+    width: 20%;
+    height: 20%;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 2.2em;
+}
+
+.menu {
+    background-color: rgb(236, 236, 236);    
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 2em;
+    padding-left: 1.5em;
+    right: -320px;
+    transition: all .3s ease;
+    box-shadow: 0 0 10px 5px #255530;
+}
+
+.menu a {
+    padding: 1em 0;
+    text-decoration: none;
+    color: #255530;
+    font-weight: bold;
+}
+
+.open {
+    right: 0;
+    left: auto;
+    opacity: 1;
+}

@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './components/homepage/homepage';
+import './App.css'
+import Profile from './components/profile/profile';
+import FAQs from './components/faqs/faqs';
+import Claim from './components/claim/claim';
+import Card from './components/card/card';
+import Settings from './components/settings/settings';
+import Booking from './components/book/booking';
+
+
+export const BASE_URL = 'http://localhost:3000'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/profile' element={<Profile/>}/>
+      <Route path='/card' element={<Card/>}/>
+      <Route path='/faqs' element={<FAQs/>}/>
+      <Route path='/settings' element={<Settings/>}/>
+      <Route path='/claim' element={<Claim/>}/>
+      <Route path='/booking' element={<Booking/>}/>
+
+
+    </Routes>
+  </BrowserRouter>
+
+  )
 }
 
 export default App;

@@ -1,0 +1,32 @@
+.claimContainer h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.claimContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    height: 70vh;
+    justify-content: space-evenly;
+}
+
+.claimContainer form input{
+    width: 75vw;
+    height: 3em;
+    border: solid 4px #255530;
+    border-radius: 10px;
+}
+
+.claimContainer form button {
+    margin-top: 1em;
+    font-size: 1em;
+    padding: .5em 1em;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: solid 2px #255530;
+    background-color: #CB9D23;
+}

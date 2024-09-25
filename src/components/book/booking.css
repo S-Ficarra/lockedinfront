@@ -1,0 +1,25 @@
+.bookForm {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.bookForm button {
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.bookForm input {
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bookH1 {
+    text-align: center;
+}
