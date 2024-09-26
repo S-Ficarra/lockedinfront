@@ -3,6 +3,11 @@
     font-size: 3em;
 }
 
+.claimContainer h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 
 .claimContainer form {
     display: flex;

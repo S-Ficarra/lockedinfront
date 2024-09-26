@@ -13,5 +13,22 @@ export const userService = {
       return data
     },
 
+    async bookLocker(data) {
+      const response = await fetch(`${BASE_URL}/users/booklocker`, {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+          throw new Error('Erreur lors de la réservation du casier');
+      }
+
+      return await response.json(); // Retourne les données de réponse
+  }
+
+
   
 }

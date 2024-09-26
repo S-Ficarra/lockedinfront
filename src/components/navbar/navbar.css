@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
 .navbar {
     background-color: #255530;
     display: flex;
@@ -8,6 +12,7 @@
 
 .navbar a {
     text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .navbar .logoContainer {

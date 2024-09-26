@@ -18,16 +18,16 @@ function NavBar () {
             <nav className="navbar">
                 <div className="logoContainer">
                     <img src={lockImg} alt='logo'/>
-                    <a href="/"><h1>LockedIn</h1></a>
+                    <a href="/"><h1>Locked'In</h1></a>
                 </div>
                 <img src={hamMenu} alt='menu' onClick={toggleMenu}/>
             </nav>
             <div className={`menu ${isOpen ? 'open' : ''}`}>
-                <NavLink to="/profile">Mon Profil</NavLink>
-                <NavLink to="/card">Ma Carte</NavLink>
+                {/* <NavLink to="/profile">Mon Profil</NavLink> */}
+                {/* <NavLink to="/card">Ma Carte</NavLink> */}
                 <NavLink to="/faqs">FAQs</NavLink>
                 {/* <NavLink to="/settings">Paramètres</NavLink>*/}
-                {/* <NavLink to="/claim">Signaler</NavLink>*/}
+                <NavLink to="/claim">Signaler</NavLink>
             </div>
         </>
     )

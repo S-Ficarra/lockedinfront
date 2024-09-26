@@ -10,7 +10,10 @@ import Settings from './components/settings/settings';
 import Booking from './components/book/booking';
 
 
+//export const BASE_URL = 'http://api.workshop-b3.enzo-palermo.com:3000'
+
 export const BASE_URL = 'http://localhost:3000'
+
 
 function App() {
 
