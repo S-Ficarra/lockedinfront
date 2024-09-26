@@ -26,8 +26,8 @@ function NavBar () {
                 <NavLink to="/profile">Mon Profil</NavLink>
                 <NavLink to="/card">Ma Carte</NavLink>
                 <NavLink to="/faqs">FAQs</NavLink>
-                <NavLink to="/settings">Paramètres</NavLink>
-                <NavLink to="/claim">Signaler</NavLink>
+                {/* <NavLink to="/settings">Paramètres</NavLink>*/}
+                {/* <NavLink to="/claim">Signaler</NavLink>*/}
             </div>
         </>
     )

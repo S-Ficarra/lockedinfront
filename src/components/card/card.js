@@ -11,10 +11,7 @@ function Card () {
     const [user, setUser] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
-
-    console.log(user);
     
-
 
     useEffect(() => {
         const fetchUser = async () => {
